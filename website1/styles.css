@@ -1,0 +1,90 @@
+
+
+h1 {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  background: lightgray;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+th, td {
+  border: 1px solid black;
+  border-style: inset;
+  text-align: center;
+}
+.body-container {
+  margin: 0 auto;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.logo {
+  text-align: center;
+  margin: 0;
+}
+
+.three-column {
+  width: 33%;
+  border: 1px solid blue;
+  background-color: lightblue;
+}
+
+.three-column p{
+  text-align: center;
+}
+
+.two-column {
+  width: 50%;
+}
+
+.two-column h4 {
+  text-align: center;
+}
+
+.three-column,
+.two-column {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.float-left {
+  float: left;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer div {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+  border: 2px solid black;
+}
+
+.image-square {
+  border: 2px solid green;
+}
+
+.image-square img {
+  height: 200px;
+  width: 200px;
+}
